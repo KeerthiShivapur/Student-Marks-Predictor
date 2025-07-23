@@ -1,26 +1,27 @@
-# Student-Marks-Predictor
-# 🎓 Student Marks Predictor
+# Student Marks Predictor 🎓
 
-This is a simple Machine Learning web app that predicts a student's exam score based on the number of hours studied. It uses a **Linear Regression** model and is built with **Python**, **scikit-learn**, and **Streamlit**.
-## 📊 Features
-- 📈 Predicts marks based on hours studied
-- 📊 Displays training data trend line
-- 📋 Shows sample dataset in app
-- 🧠 Model metrics and info in sidebar
-- 🌐 Streamlit-powered web interface
+This project predicts student exam marks based on hours studied using a simple linear regression model.
 
-## 🧠 Tech Stack
+## Features
+- Input: Hours Studied
+- Output: Predicted Marks
+- Built with: Python, scikit-learn, Streamlit
 
-- ython
-- pandas
-- scikit-learn
-- Streamlit
-- matplotlib
+## How to Run
 
-## 📁 Project Structure
-student_marks_predictor/
-├── app1.py # Streamlit web app
-├── model.pkl # Trained Linear Regression model
-├── student_marks_data.csv # Dataset
-├── requirements.txt # Python dependencies
-└── README.md # Project overview (this file)
+1. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+2. Run the Streamlit app:
+```
+streamlit run app.py
+```
+
+## Files
+- `app.py`: Streamlit application
+- `model.pkl`: Trained regression model
+- `student_marks_data.csv`: Dataset
+- `requirements.txt`: Required Python packages
+
